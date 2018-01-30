@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("img/top-bg.jpg");
+    background-size: 100% 100%;
+    min-height: 150px ;
+    height: 20vh;
+    position: relative;
+}
+
+.info {
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+.name {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+    border: #fff 2px solid;
+}
+
+.job {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid #FFEA82;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation:
+            typing 4s steps(25, end),
+            blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    25% { border-color: #FFEA82 }
+}
+
+.wrapper {
+    display: flex
+}
+
+.left {
+    background-color: #3a3a38;
+    width: 30%;
+    height: 800px;
+    color: #fff;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.left-container {
+    margin: 30px 30px 30px 50px;
+}
+
+.photo {
+    background-image: url("./img/photo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.contacts div {
+    margin-top: 5px;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #FFEA82;
+    width: 30px;
+    height: 30px;
+    vertical-align: center;
+    color: #3a3a38;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.fa.fa-map-marker {
+    position: relative;
+    left: 1px;
+}
+.fa.fa-mobile {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+.fa.fa-envelope {
+    font-size: 16px;
+    position: relative;
+    left: 1px;
+    top: 2px;
+}
+.fa.fa-github {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.email {
+    font-size: 12px;
+}
+
+.gitHub {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.gitHub:hover {
+    color: #fff;
+}
+
+.right {
+    background-color: #545452;
+    height: 800px;
+    width: 70%;
+    color: #fff;
+}
+
+.right-container {
+    margin: 30px 30px 30px 50px;
+}
+
+.progressBars {
+    display: flex;
+    justify-content: center;
+}
+
+.langIcon{
+    max-width: 40px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20px, -27px);
+}
+
+#html, #css, #js, #angular  {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.angular {
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-37px, -10px);
+}
+.skills {
+    margin-top: 15px;
+}
+.skills-title{
+    display: flex;
+    justify-content: space-between;
+}
+.skillsIcon{
+    max-width: 30px;
+    height: auto;
+    position: relative;
+    bottom: 5px;
+    margin-right: 5px;
+}
+.skills-title h4 {
+    color: #FFEA82;
+    display: inline;
+}
+.line{
+    width: 80%;
+    border-top: 1px solid grey;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.professional-skills-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.professional-skills-list {
+    font-size: 12px;
+    color: #eee;
+}
+
+.lineBar {
+    width: 250px;
+    height: 8px;
+    margin-bottom: 15px;
+}
