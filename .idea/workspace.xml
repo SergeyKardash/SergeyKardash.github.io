@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57038b65-a68e-4643-acb5-c3201582c2ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/img/angular1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/icons.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
@@ -24,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="141" column="137" lean-forward="false" selection-start-line="141" selection-start-column="137" selection-end-line="141" selection-end-column="137" />
+            <state relative-caret-position="563">
+              <caret line="168" column="71" lean-forward="false" selection-start-line="168" selection-start-column="71" selection-end-line="168" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -34,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="260" column="15" lean-forward="false" selection-start-line="260" selection-start-column="15" selection-end-line="260" selection-end-column="15" />
+            <state relative-caret-position="315">
+              <caret line="302" column="17" lean-forward="false" selection-start-line="302" selection-start-column="17" selection-end-line="302" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -166,12 +163,12 @@
       <workItem from="1517321217912" duration="842000" />
       <workItem from="1517322083494" duration="298000" />
       <workItem from="1517322397525" duration="17526000" />
-      <workItem from="1517389412404" duration="6577000" />
+      <workItem from="1517389412404" duration="9492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25243000" />
+    <option name="totallyTimeSpent" value="28158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -256,16 +253,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="260" column="15" lean-forward="false" selection-start-line="260" selection-start-column="15" selection-end-line="260" selection-end-column="15" />
+        <state relative-caret-position="315">
+          <caret line="302" column="17" lean-forward="false" selection-start-line="302" selection-start-column="17" selection-end-line="302" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="141" column="137" lean-forward="false" selection-start-line="141" selection-start-column="137" selection-end-line="141" selection-end-column="137" />
+        <state relative-caret-position="563">
+          <caret line="168" column="71" lean-forward="false" selection-start-line="168" selection-start-column="71" selection-end-line="168" selection-end-column="71" />
           <folding />
         </state>
       </provider>
