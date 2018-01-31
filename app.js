@@ -115,14 +115,6 @@ var gitLineBar = new ProgressBar.Line(gitLine, {
 });
 
 
-htmlCssLineBar.animate(0.9);
-responseBar.animate(0.8);
-JSLineBar.animate(0.8);
-angularLineBar.animate(0.75);
-compilerLineBar.animate(0.6);
-packetLineBar.animate(0.75);
-JSFeatureLineBar.animate(0.75);
-gitLineBar.animate(0.75);
 
 // Personal skills
 var communicationLineBar = new ProgressBar.Line(communicationLine, {
@@ -175,8 +167,25 @@ var leadershipLineBar = new ProgressBar.Line(leadershipLine, {
     svgStyle: {width: '100%', height: '100%'}
 });
 
-communicationLineBar.animate(0.85);
-teamworkLineBar.animate(0.8);
-creativityLineBar.animate(0.7);
-managementLineBar.animate(0.9);
-leadershipLineBar.animate(0.85);
+document.addEventListener('DOMContentLoaded', showPage);
+
+function showPage () {
+    document.querySelector('body').style.display = 'block'
+}
+function loadProgressBars() {
+
+    htmlCssLineBar.animate(0.9);
+    responseBar.animate(0.8);
+    JSLineBar.animate(0.8);
+    angularLineBar.animate(0.75);
+    compilerLineBar.animate(0.6);
+    packetLineBar.animate(0.75);
+    JSFeatureLineBar.animate(0.75);
+    gitLineBar.animate(0.75);
+
+    communicationLineBar.animate(0.85);
+    teamworkLineBar.animate(0.8);
+    creativityLineBar.animate(0.7);
+    managementLineBar.animate(0.9);
+    leadershipLineBar.animate(0.85);
+}
