@@ -413,7 +413,7 @@ header {
         flex-direction: column;
     }
     .skillsColumn {
-
+        width: 100%;
     }
     .lineBar {
         width: 100%;
