@@ -2,28 +2,28 @@
 var htmlBar = new ProgressBar.Circle(html, {
     strokeWidth: 5,
     easing: 'easeOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     svgStyle: null
 });
 var cssBar = new ProgressBar.Circle(css, {
     strokeWidth: 5,
     easing: 'easeOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     svgStyle: null
 });
 var jsBar = new ProgressBar.Circle(js, {
     strokeWidth: 5,
     easing: 'easeOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     svgStyle: null
 });
 var angularBar = new ProgressBar.Circle(angular, {
     strokeWidth: 5,
     easing: 'easeOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     svgStyle: null
 });
@@ -37,7 +37,7 @@ angularBar.animate(-0.75);
 var htmlCssLineBar = new ProgressBar.Line(htmlCssLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -47,7 +47,7 @@ var htmlCssLineBar = new ProgressBar.Line(htmlCssLine, {
 var JSLineBar = new ProgressBar.Line(JSLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -57,7 +57,7 @@ var JSLineBar = new ProgressBar.Line(JSLine, {
 var responseBar = new ProgressBar.Line(responseLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -67,7 +67,7 @@ var responseBar = new ProgressBar.Line(responseLine, {
 var angularLineBar = new ProgressBar.Line(angularLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -77,7 +77,7 @@ var angularLineBar = new ProgressBar.Line(angularLine, {
 var compilerLineBar = new ProgressBar.Line(compilerLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -87,7 +87,7 @@ var compilerLineBar = new ProgressBar.Line(compilerLine, {
 var packetLineBar = new ProgressBar.Line(packetLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -97,7 +97,7 @@ var packetLineBar = new ProgressBar.Line(packetLine, {
 var JSFeatureLineBar = new ProgressBar.Line(JSFeatureLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -107,7 +107,7 @@ var JSFeatureLineBar = new ProgressBar.Line(JSFeatureLine, {
 var gitLineBar = new ProgressBar.Line(gitLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -120,7 +120,7 @@ var gitLineBar = new ProgressBar.Line(gitLine, {
 var communicationLineBar = new ProgressBar.Line(communicationLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -130,7 +130,7 @@ var communicationLineBar = new ProgressBar.Line(communicationLine, {
 var teamworkLineBar = new ProgressBar.Line(teamworkLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -140,7 +140,7 @@ var teamworkLineBar = new ProgressBar.Line(teamworkLine, {
 var creativityLineBar = new ProgressBar.Line(creativityLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -150,7 +150,7 @@ var creativityLineBar = new ProgressBar.Line(creativityLine, {
 var managementLineBar = new ProgressBar.Line(managementLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
@@ -160,18 +160,22 @@ var managementLineBar = new ProgressBar.Line(managementLine, {
 var leadershipLineBar = new ProgressBar.Line(leadershipLine, {
     strokeWidth: 4,
     easing: 'easeInOut',
-    duration: 1400,
+    duration: 2000,
     color: '#FFEA82',
     trailColor: '#eee',
     trailWidth: 4,
     svgStyle: {width: '100%', height: '100%'}
 });
 
-document.addEventListener('DOMContentLoaded', showPage);
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout( showPage, 500)
+} );
 
 function showPage () {
     document.querySelector('body').style.display = 'block'
+    loadProgressBars();
 }
+
 function loadProgressBars() {
 
     htmlCssLineBar.animate(0.9);
