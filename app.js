@@ -168,7 +168,7 @@ var leadershipLineBar = new ProgressBar.Line(leadershipLine, {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout( showPage, 1500)
+    setTimeout( showPage, 2000)
 } );
 
 function showPage () {
