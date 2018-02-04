@@ -62,7 +62,7 @@ header {
 }
 
 .left {
-    background-color: #3a3a38;
+    background-color: #131311;
     width: 30%;
     color: #fff;
     font-size: 14px;
@@ -74,7 +74,7 @@ header {
 }
 
 .photo {
-    background-image: url("./img/photo.jpg");
+    background-image: url("./img/photo1.jpg");
     background-size: cover;
     border-radius: 50%;
     width: 200px;
@@ -141,7 +141,7 @@ header {
 }
 
 .right {
-    background-color: #545452;
+    background-color: #1b1b16;
     width: 70%;
     color: #fff;
 }
