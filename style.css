@@ -113,6 +113,10 @@ header {
     left: 1px;
     top: 1px;
 }
+
+.phone a {
+    color: #fff;
+}
 .fa.fa-envelope {
     font-size: 16px;
     position: relative;
